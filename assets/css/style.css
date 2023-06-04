@@ -1,4 +1,13 @@
-/* body {
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+
+body {
     color: #FFFFFF;
-    background-color: #00415E;
-} */
+    background-color: #d5f170;
+}
+
+
+
+h1 {
+    font-family: 'Bungee Spice';
+    font-weight: 200;
+}
