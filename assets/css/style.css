@@ -9,8 +9,9 @@
 
 body {
     color: #000000;
-    background-color: #d5f170;
+    /* background-color: #d5f170; */
     font-family: 'Geologica';
+    background-color: #575958;
 }
 
 /*Header Styling */
@@ -20,6 +21,10 @@ h1 {
     font-family: 'Bungee Spice';
     font-weight: 200;
     font-size: 60px;
+}
+
+h2 {
+    font-family: 'Bungee Spice';
 }
 
 #logo {
