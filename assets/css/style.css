@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Geologica:wght@100;200;300;400&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -6,10 +6,14 @@
     border: none;
 }
 
+
 body {
     color: #000000;
     background-color: #d5f170;
+    font-family: 'Geologica';
 }
+
+/*Header Styling */
 
 
 h1 {
@@ -23,16 +27,28 @@ h1 {
     text-decoration: none;
 }
 
+#navbar-wrapper {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
 #menu {
     display: flex;
     font-size: 110%;
     letter-spacing: 3px;
+    background-color: gold;
 }
 
 #menu li {
     float: left;
     list-style-type: none;
     margin-right: 10px;
+}
+
+.navbar-links {
+    text-decoration: none;
 }
 
 .container {
