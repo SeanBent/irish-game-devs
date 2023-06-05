@@ -19,11 +19,11 @@ h1 {
 }
 
 #logo {
-    float: left;
     margin-bottom: 10px;
 }
 
 #menu {
+    display: flex;
     font-size: 110%;
     letter-spacing: 3px;
 }
@@ -32,7 +32,6 @@ h1 {
     float: left;
     list-style-type: none;
     margin-right: 10px;
-    margin-bottom: 10px;
 }
 
 .container {
