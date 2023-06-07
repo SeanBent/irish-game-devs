@@ -67,6 +67,11 @@ h2 {
 
 /* Image Styling */
 
+#hero-image-container {
+    max-width: 100%;
+    height: auto;
+}
+
 .image-container {
     max-width: 100%;
     height: auto;
