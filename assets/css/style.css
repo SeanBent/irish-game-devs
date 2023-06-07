@@ -68,6 +68,19 @@ h2 {
 /* Image Styling */
 
 .image-container {
-    max-width: 25%;
+    max-width: 100%;
     height: auto;
+}
+
+/* Experimental media query to reduce image size when scaling up in screen size" */
+@media (min-width: 1200px) {
+    .image-container {
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 992px) {  /* this one seems to be over-riding previous media Query*/
+    .image-container {
+        max-width: 25%;
+    }
 }
