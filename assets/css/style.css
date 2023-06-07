@@ -73,14 +73,21 @@ h2 {
 }
 
 /* Experimental media query to reduce image size when scaling up in screen size" */
-@media (min-width: 1200px) {
+
+@media (min-width: 768px) {
     .image-container {
         max-width: 50%;
     }
 }
 
-@media (min-width: 992px) {  /* this one seems to be over-riding previous media Query*/
+/* @media (min-width: 992px) {
     .image-container {
         max-width: 25%;
     }
 }
+
+@media (min-width: 1200px) {
+    .image-container {
+        max-width: 50%;
+    }
+} */
