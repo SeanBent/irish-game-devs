@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Geologica:wght@100;200;300;400&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+
+
 
 * {
     margin: 0;
@@ -11,16 +16,23 @@ body {
     color: #000000;
     /* background-color: #d5f170; */
     font-family: 'Geologica';
-    background-color: #71857b;
+    background-color: #b4d9c6;
 }
 
 /*Header Styling */
 
 
-h1 {
+/* h1 {
     font-family: 'Bungee Spice';
     font-weight: 200;
     font-size: 60px;
+} */
+
+h1 {
+    font-family: 'Libre Baskerville';
+    font-weight: 700;
+    font-size: 60px;
+    color: #000000;
 }
 
 h2 {
@@ -75,6 +87,18 @@ h2 {
 .image-container {
     max-width: 100%;
     height: auto;
+}
+
+/* text styling */
+
+.text-container {
+    width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+    .text-container {
+        font-size: 40px;
+    }
 }
 
 /* Experimental media query to reduce image size when scaling up in screen size" */
