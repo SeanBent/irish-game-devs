@@ -103,6 +103,17 @@ h2 {
     padding-left: 10%;
 }
 
+/* Form Styling */
+
+.form-section {
+    clear: left;
+    background: url("../images/laptopandpad.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+
+}
+
 /* @media screen and (max-width: 480px) {
     .text-container {
         font-size: 40px;
