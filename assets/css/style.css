@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Geologica:wght@100;200;300;400&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Geologica:wght@100;200;300;400&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
 
@@ -14,21 +14,21 @@
 
 body {
     color: #000000;
-    /* background-color: #d5f170; */
-/* font-family: 'Geologica';
+    background-color: #d5f170;
+    font-family: 'Geologica';
     background-color: #b4d9c6;
 } */
 */
 /*Header Styling */
 
 
-/* h1 {
+h1 {
     font-family: 'Bungee Spice';
     font-weight: 200;
     font-size: 60px;
 } */
 
-/* h1 {
+h1 {
     font-family: 'Libre Baskerville';
     font-weight: 700;
     font-size: 60px;
@@ -36,14 +36,14 @@ body {
 }
 
 h2 {
-    font-family: 'Bungee Spice';
-} */
+    font-family: 'Libre Baskerville';
+}
 
-/* #logo {
+#logo {
     margin-bottom: 10px;
     text-decoration: none;
-} */
-/* 
+}
+
 #navbar-wrapper {
     background-color: white;
     padding: 10px;
@@ -51,23 +51,23 @@ h2 {
     display: inline-block;
 }
 
- */
 
-/* #menu {
+
+#menu {
     display: flex;
     font-size: 110%;
     letter-spacing: 3px;
     background-color: white;
 } */
 
-/* #menu li {
+#menu li {
     float: left;
     list-style-type: none;
     margin-right: 20px;
     border-right: 1px solid black;
     padding: 0px 15px;
-} */
-/* 
+}
+
 .navbar-links {
     text-decoration: none;
 }
@@ -76,31 +76,35 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: left;
-} */
+}
 
 /* Image Styling */
 
-/* #hero-image-container {
+.hero-image-container {
+    width: 100%;
     max-width: 100%;
     height: auto;
 }
 
-.image-container {
+/* .image-container {
     max-width: 100%;
     height: auto;
-} */
+}  */
 
-/* text styling */
+/* Page layout styling */
 
 .text-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     width: 100%;
-    max-width: 100%;
-    padding-left: 10%;
+    padding 0 20px;
+
+}
+
+.grand-flex-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%
 }
 
 /* Form Styling */
