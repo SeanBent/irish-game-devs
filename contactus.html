@@ -41,6 +41,25 @@
     </div>
 
     <section class="form-section">
+        <form class="contact-form" action="/submit-form" method="POST">
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="organization">Organisation Name:</label>
+            <input type="text" id="organization" name="organization" required>
+
+            <label for="website">Website:</label>
+            <input type="url" id="website" name="website">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+
 
     </section>
 </body>
