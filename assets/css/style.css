@@ -67,7 +67,7 @@ hr {
     background-color: white;
 }
 
-*/ #menu li {
+#menu li {
     float: left;
     list-style-type: none;
     margin-right: 20px;
@@ -99,6 +99,9 @@ footer {
 }
 
 
+
+/* containers */
+
 .container {
     display: flex;
     flex-direction: column;
@@ -118,6 +121,7 @@ footer {
     width: 100%;
     max-width: 100%;
     height: auto;
+    margin: 20px 0;
 }
 
 .image-container {
@@ -125,14 +129,15 @@ footer {
     height: auto;
 }
 
-/* Page layout styling */
-
 .text-container {
     text-align: center;
     width: 100%;
     padding 0 20px 20px;
-    margin-bottom: 20px;
+    margin: 20px 1px;
+}
 
+#for-developers {
+    margin-top: 20px;
 }
 
 .grand-flex-box {
@@ -142,6 +147,8 @@ footer {
     width: 100%;
     margin-bottom: 20px;
 }
+
+
 
 /* Form Styling */
 
