@@ -154,6 +154,12 @@ footer {
     margin-bottom: 20px;
 }
 
+@media screen and (min-width: 761px) {
+    .grand-flex-box {
+        flex-direction: row;
+    }
+}
+
 
 
 /* Form Styling */
@@ -240,7 +246,7 @@ footer {
     .video-container iframe {
         justify-content: center;
         margin: 5% auto;
-        max-width: 100%px;
+        width: 90%;
     }
 }
 
