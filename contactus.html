@@ -13,53 +13,55 @@
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <div>
-                <!--Logo-->
-                <a href="index.html" style="text-decoration: none;">
-                    <h1 id="logo">Irish Game Devs</h1>
-                </a>
-            </div>
-            <div id="navbar-wrapper">
-                <!--Navbar-->
-                <nav id="menu">
-                    <ul>
-                        <li>
-                            <a href="index.html" class="navbar-links">Home</a>
-                        </li>
-                        <li>
-                            <a href="fordevelopers.html" class="navbar-links">For Developers</a>
-                        </li>
-                        <li>
-                            <a href="#" class="navbar-links">Contact Us</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-    </div>
+    <main>
+        <div class="container">
+            <header>
+                <div>
+                    <!--Logo-->
+                    <a href="index.html" style="text-decoration: none;">
+                        <h1 id="logo">Irish Game Devs</h1>
+                    </a>
+                </div>
+                <div id="navbar-wrapper">
+                    <!--Navbar-->
+                    <nav id="menu">
+                        <ul>
+                            <li>
+                                <a href="index.html" class="navbar-links">Home</a>
+                            </li>
+                            <li>
+                                <a href="fordevelopers.html" class="navbar-links">For Developers</a>
+                            </li>
+                            <li>
+                                <a href="#" class="navbar-links">Contact Us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </div>
 
-    <section class="form-section">
-        <form class="contact-form" action="/submit-form" method="POST">
-            <label for="full-name">Full Name:</label>
-            <input type="text" id="full-name" name="full-name" required>
+        <section class="form-section">
+            <form class="contact-form" action="thankyou.html">
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name" required>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
 
-            <label for="organization">Organisation Name:</label>
-            <input type="text" id="organization" name="organization" required>
+                <label for="organization">Organisation Name:</label>
+                <input type="text" id="organization" name="organization" required>
 
-            <label for="website">Website:</label>
-            <input type="url" id="website" name="website">
+                <label for="website">Website:</label>
+                <input type="url" id="website" name="website">
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
 
-            <input type="submit" value="Submit">
-        </form>
-    </section>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
 
     <!--Footer-->
     <footer>
@@ -86,5 +88,4 @@
     </footer>
     <!--Font Awesome Kit-->
     <script src="https://kit.fontawesome.com/d47901c4f7.js" crossorigin="anonymous"></script>
-</body>
 </body>
