@@ -20,30 +20,81 @@ By answering questions such as “What video games have been made in Ireland?”
 <h2>Features:</h2>
 
 
-1. Site-wide:
-   -Navigation bar that includes links to the Home page, For Developers page, and Contact Us page containing a contact form.
-   -Footer containing social media links.
+1. <h3>Site-wide:</h3>
 
-2. The 'Home' page:
-   -A hero image demonstrating a person doing active game development.
+
+   Navigation bar that includes links to the Home page, For Developers page, and Contact Us page:
+   
+   ![navbar](docs/navbar.png)
+
+
+   
+   -Footer containing social media links:
+
+   ![footer](docs/footer.png)
+   
+
+2. <h3>The 'Home' page:</h3>
+   -A hero image demonstrating a person doing active game development:
+
+   ![hero](docs/hero.png)
+
+
    -An explanation of what the site as and what it intends to achieve.
-   -A section of text that highlights that the site contains resources available to help people to become game developers, and a link to the 'For Developers' page.
-   -A featured game of the month section including a youtube video and description of the game, as well as links to websites for the game and the studio.
-   -A 'Recent Releases' section showing recently released Irish games, youtube videos of the games, as well as links to websites for the games and the studios.
-   -A 'Get your game featured' section poitning users to the Contact Us page where they can fill in a form.
    
-3. 'For Developers' page:
-   -Images relating to Imirt and Pulse college.
-   -Text explaining Imirt and Pulse College and their use to prospectie developers.
-   -Links to Imirt and Pulse College Websites.
+   -A section of text that highlights that the site contains resources available to help people to become game developers, and a link to the 'For Developers' page:
+
+   ![explain](docs/explain.png)
+
+
+   -A featured game of the month section including a youtube video and description of the game, as well as links to websites for the game and the studio:
    
-4. 'Contact Us' page:
+   ![featuredgame](docs/featuredgame.png)
+
+   
+   -A 'Recent Releases' section showing recently released Irish games, youtube videos of the games, as well as links to websites for the games and the studios:
+
+
+   ![recentreleases](docs/recentreleases.png)
+
+   
+   -A 'Get your game featured' section pointing users to the Contact Us page where they can fill in a form:
+
+
+   ![getyoursfeatured](docs/getyoursfeatured.png)
+   
+   
+   
+3. <h3>'For Developers' page:</h3>
+
+
+   -Images relating to Imirt and Pulse college, text explaining Imirt and Pulse College and their use to prospective developers, and links to Imirt and Pulse College Websites.
+
+
+   ![imirt](docs/imirt.png)
+
+
+   ![pulsecollege](docs/pulsecollege.png)
+
+   
+   
+4. <h3>'Contact Us' page:</h3>
+
+
    -Form to fill in that can be used by developers to contact the website to get their game featured
+   
    -Text explaning the form.
+   
    -A background image.
 
-5. 'Thank You' page:
+   ![contactform](docs/contactform.png)
+
+
+5. <h3>'Thank You' page:</h3>
+   
    -A page that appears when a user has subitted the form, thanking them for interacting with the site.
+
+   ![thankyou](docs/thankyou.png)
    
 <hr>
 
@@ -68,16 +119,28 @@ After some initial code and structure was laid out, the approach for development
 
 Later, the majority of the containers and stylings were swapped over to flex values, allowing more robust placement and elimination of overflows after much testing to find the correct values.
 
+![flexdemo](docs/flexdemo.png)
+
+
 <h3>Feature Testing</h3>
 
--Navbar links worked as intended without any issues, bringing the user to the correct page.
+-Navbar links tests involved clicking on each navbar link in turn on each page, to verify that they correctly redirect the user to the specified page.
 
--After much trial and error, correct stylings were found to allow for playing of videos without loss of aspect ratio or areas being cutoff from viewing.
+-To verify videos displayed and played without loss of aspect ratio or areas being cutoff from viewing involved observing the embedded video, then clicking play on each. Then clicking the fullscreen button to verify the video will display fullscreen.
 
--After some tests and needing to revise the attributes of the form element, eventually a 'Thank You' page was sucessfully implemented, to appear after a user has clicked Submit on the form.
+-To verify the form validation worked, each field would be filled out in turn and then 'Submit' would be clicked. If any field was left blank, the validation message should appear.
+
+![verifyform](docs/verifyform.png)
+
 
 <h3>Responsivity Testing</h3>
-In general the site looks much better in small to mid screen widths. This reflects the mobile first approach that was implemented as I worked my way up through smaller breakpoints to larger. Though it is not a perfect transition at these breakpoints, the scaling of content is now relatively smooth until higher screen widths when the Hero Image on index.html becomes overwhelmingly big.
+
+To test responsivity, devtools would be opened and the screen size adjusted either by selecting a specific device's dimensions, or by dragging the sides to adjust the width or height. Then observations were made about the effect the change had on each part of the page. Then css wwould be adjusted to achieve the necessary changes to achieve responsivity.
+
+![ipadtest](docs/ipadtest.png)
+
+
+![responsive](docs/responsive.png)
 
 
 <h3>Validator Testing</h2>
