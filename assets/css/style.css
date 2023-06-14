@@ -133,15 +133,15 @@ footer {
 
 .image-container {
     display: flex;
-    max-width: 50%;
+    max-width: 99%;
     height: auto;
     margin: 0 auto;
 }
 
 .text-container {
     text-align: center;
-    width: 100%;
-    padding 0 20px 20px;
+    padding 0 20px 20px 0;
+    width: 99%;
     margin: 20px 1px;
 }
 
@@ -239,9 +239,31 @@ footer {
     p {
         font-size: 150%;
     }
+
+    .image-container {
+        max-width: 70%;
+    }
 }
 
-@media screen and (min-width: 560px) {
+@media screen and (min-width: 761px) {
+
+    h1,
+    h2 {
+        font-size: 220%;
+    }
+
+    p {
+        font-size: 150%;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .image-container {
+        max-width: 40%;
+    }
+}
+
+/* @media screen and (min-width: 560px) {
     .video-container {
         justify-content: center;
         height: auto;
@@ -251,9 +273,15 @@ footer {
     .video-container iframe {
         justify-content: center;
         /* margin: 5% auto; */
-        /* width: 90%; */
-    }
+/* width: 90%; */
 }
+
+/* 
+    .image-container {
+        max-width: 30%;
+    }
+} */
+
 
 /* @media screen and (max-width: 480px) {
     .text-container {
