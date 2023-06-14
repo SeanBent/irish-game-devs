@@ -5,14 +5,20 @@ Irish Game Devs is a website that showcases video games created by individuals o
 
 <h3>The target audiences are:</h3>
 -Video game enthusiasts of Ireland and the rest of the world who are interested in Irish-made games and game development in Ireland.
--Indie, mid, and large video game developers in Ireland
--People interested in becoming game developers in Ireland
+
+
+-Indie, mid, and large video game developers in Ireland.
+
+
+-People interested in becoming game developers in Ireland.
+
 
 By answering questions such as “What video games have been made in Ireland?”, “What level of quality can be found in games produced in Ireland?" and "How do I become a developer in Ireland?" it is hoped that the site will encourage greater participation in the Irish video game development landscape.
 
 <hr>
 
 <h2>Features:</h2>
+
 
 1. Site-wide:
    -Navigation bar that includes links to the Home page, For Developers page, and Contact Us page containing a contact form.
@@ -42,12 +48,18 @@ By answering questions such as “What video games have been made in Ireland?”
 <hr>
 
 <h2>Features Left to Implement:</h2>
-1. Fully responsive navbar.
+
+1. Fully responsive navbar. 
+   
 2. Fully responsive hero image at higher screen widths
+   
 3. Styled Submit button on form
+   
 4. A more comprehensive list of games
+   
 5. A search bar to search for content by studio, title, and release year.
-6. Profile pages for developers.
+
+6.  Profile pages for developers.
 
 <hr>
 
@@ -83,11 +95,19 @@ CSS: No errors were found when passing through the official (Jigsaw) validator.
 2. Hero Image: at lower to mid size screens the hero image on index.html scales well. But on higher screen sizes it is overwhelmingly large and breaks the natural flow of the page. With more time to fix this, a likely solution would be to display a cropped image instead at higher breakpoints.
 
 
+<hr>
+
+
+<h2>Deployment</h2>
 
 
 <hr>
 
-Deployment
-Credits
-Content
-Media
+
+<h2>Credits</h2>
+
+
+<h3>Content</h3>
+
+
+<h3>Media</h3>
