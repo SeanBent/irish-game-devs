@@ -1,39 +1,20 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Irish Game Devs
 
-Welcome,
+Irish Game Devs is a website that showcases video games created by individuals or game studios in Ireland. It aims to celebrate the talent present in Ireland as well as the creations they have made. This website has also been created in the hopes of encourging new people to become game devs by providing pointers to the organisations and resources available to support them, as well as eduational opportunities in game dev. A means of getting one's own game featured n the site is also present through the contact form.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The target audiences are:
+-Video game enthusiasts of Ireland and the rest of the world who are interested in Irish-made games and game development in Ireland.
+-Indie, mid, and large video game developers in Ireland
+-People interested in becoming game developers in Ireland
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+By answering questions such as “What video games have been made in Ireland?”, “What level of quality can be found in games produced in Ireland?" and "How do I become a developer in Ireland?" it is hoped that the site will encourage greater participation in the Irish video game development landscape.
 
-## Codeanywhere Reminders
+Features:
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+1. The Landing page includes: 
+   -A hero image demonstrating a person doing active game development.
+   -An explanation of what the site as and what it intends to achieve. 
+   -A section of text that highlights that the site contains resurces available to help people to become game developers, and a link to the 'For Developers' page.
+   -A featured game of the month section including a youtube video and description of the game, as well as links to websites for the game and the studio.
+   -A 'Recent Releases' section showing recently released Irish games, youtube videos of the games, as well as links to websites for the games and the studios.
+   -
