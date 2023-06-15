@@ -122,6 +122,9 @@ After some initial code and structure was laid out, the approach for development
 
 Later, the majority of the containers and stylings were swapped over to flex values, allowing more robust placement and elimination of overflows after much testing to find the correct values.
 
+The deployed website was viewed and tested on Chrome, Edge, and Firefox. No notable difference in appearance or performance or functionaity was observed. 
+
+
 ![flexdemo](docs/flexdemo.png)
 
 
