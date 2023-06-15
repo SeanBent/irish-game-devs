@@ -15,6 +15,9 @@ Irish Game Devs is a website that showcases video games created by individuals o
 
 By answering questions such as “What video games have been made in Ireland?”, “What level of quality can be found in games produced in Ireland?" and "How do I become a developer in Ireland?" it is hoped that the site will encourage greater participation in the Irish video game development landscape.
 
+![mock-up](docs/mock-up.png)
+
+
 <hr>
 
 <h2>Features:</h2>
@@ -160,6 +163,19 @@ CSS: No errors were found when passing through the official (Jigsaw) validator.
 
 ![css-validation](docs/css-validation.png)
 
+<h3>Performance Testing</h3>
+
+A performance test was run using google lighthouse:
+
+![lighthouse](docs/lighthouse.png)
+
+While the index page scored high on accessibility, best pratices and SEO, it did poorly in Performance, seemingly due to the image. If more time were available, this would be looked at and ways found to imprve performance. It was a similar story for the other pages:
+
+
+![fordevelopers-lighthouse](docs/fordevelopers-lighthouse.png)
+
+![contactus-lighthouse](docs/contactus-lighthouse.png)
+
 <hr>
 
 <h2>Unfixed Bugs</h2>
@@ -246,5 +262,6 @@ The Hero Image named developer.jpg on Irish Game Devs was taken from <https://st
 
 The background image named laptopandpad.jpeg on Irish Game Devs was taken from <https://unsplash.com/>
 
+The footer social media icons came from fontawesome
 
 
