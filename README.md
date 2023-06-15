@@ -184,6 +184,25 @@ CSS: No errors were found when passing through the official (Jigsaw) validator.
 
 <h2>Deployment</h2>
 
+1. Navigate to settings in the GitHub Repository
+
+![settings](docs/settings.png)
+
+2. Select 'Pages' on the left
+
+![pages](docs/pages.png)
+
+3. Select 'Main' in the dropdown menu under 'Branch'
+
+4. Click 'Save'
+
+
+![source-main](docs/source-main.png)
+
+5. Refresh page and copy link to deployed site. The link to the deployed site of Irish Game Devs is: https://seanbent.github.io/irish-game-devs/
+   
+   ![deployed](docs/deployed.png)
+   
 
 <hr>
 
@@ -193,5 +212,39 @@ CSS: No errors were found when passing through the official (Jigsaw) validator.
 
 <h3>Content</h3>
 
+The paragraph about Empire of Sin was based on information from the Romero Games website (<https://romerogames.com/>) and the Paradox Interactive website (<https://www.paradoxinteractive.com/games/empire-of-sin/about>)
+
+The paragraph about The Pale Beyond was based on information from its Steam page (<https://store.steampowered.com/app/1266030/The_Pale_Beyond/>) and the Bellular Games website: <https://bellular.games/>
+
+The paragraph about Imirt was copied directly from the Imirt website: <https://www.imirt.ie/faq>
+
+The paragraph about Pulse College was based on an exploration of the information on the Pulse College Website: https://www.pulsecollege.com/
+
+<h3>Code</h3>
+
+The information about flexbox that was critical to this website came from: <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>
+
+The code for the translucent effect of the Form came directly from the Love Running walkthrough on Codeinstitute.
+
+The information used to write media queries came from: <https://css-tricks.com/a-complete-guide-to-css-media-queries/>
+
+The majority of the code used to build this website came from lessons in the HTML and CSS modules on Codeinstitute.
+
+The information on deployment used in this document came from the Deployment Essentials module on Codeinstitute though some alterations had to be made as the website is laid out slightly different now. 
 
 <h3>Media</h3>
+
+The gameplay trailer for Empire of Sin was taken from the Paradox Interactive Youtube channel: <https://www.youtube.com/watch?v=F_izLa5D5NY&t=6s>
+
+The gameplay trailer for The Pale Beyond was taken from the Fellow Traveller Youtube channel: <https://www.youtube.com/watch?v=AmhSEQDrkAo>
+
+The Imirt image was taken from the Imirt website: <https://www.imirt.ie/>
+
+The Pulse college banner was taken from <https://www.pulsecollege.com/>
+
+The Hero Image named developer.jpg on Irish Game Devs was taken from <https://stock.adobe.com/>
+
+The background image named laptopandpad.jpeg on Irish Game Devs was taken from <https://unsplash.com/>
+
+
+
