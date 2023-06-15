@@ -156,6 +156,8 @@ CSS: No errors were found when passing through the official (Jigsaw) validator.
 1. Navbar responsivity: while in general the site scales better at lower screen sizes, the navbar suffers a very noticable distortion of shape at lower screen widths. At first this was judged an issue that would be addressed later in the project as it was otherwise fully functional, and as more content was added and needed fixing, this feature kept getting put off. Now, with little time remaining the focus needed to turn to larger structural issues and completing the README.
    
 2. Hero Image: at lower to mid size screens the hero image on index.html scales well. But on higher screen sizes it is overwhelmingly large and breaks the natural flow of the page. With more time to fix this, a likely solution would be to display a cropped image instead at higher breakpoints.
+   
+3. entire top of page is clickable and leads to home page
 
 
 <hr>
