@@ -147,6 +147,16 @@ To test responsivity, devtools would be opened and the screen size adjusted eith
 
 HTML: No errors were returned when passing through the official W3C validator.
 
+![index-validation](docs/index-validation.png)
+
+![for-developers-validation](docs/for-developers-validation.png)
+
+![contactus-validation](docs/contactus-validation.png)
+
+![thankyou-validation](docs/thankyou-validation.png)
+
+![css-validation](docs/css-validation.png)
+
 CSS: No errors were found when passing through the official (Jigsaw) validator.
 
 <hr>
